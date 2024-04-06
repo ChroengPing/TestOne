@@ -78,40 +78,28 @@ function Course() {
             <img src={word} alt="" />
             <h3 className="center">Ms.Word</h3>
             <h4>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-              quas minus deserunt aliquam consequuntur laborum modi! Eligendi
-              unde nostrum sit labore distinctio, sequi similique mollitia
-              minima veritatis quibusdam, nemo aliquam.
-            </h4>
-          </div>
-          <div className="courseBox">
-            <img src={powerpoint} alt="" />
-            <h3 className="center">Ms.PowerPoint</h3>
-            <h4>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-              quas minus deserunt aliquam consequuntur laborum modi! Eligendi
-              unde nostrum sit labore distinctio, sequi similique mollitia
-              minima veritatis quibusdam, nemo aliquam.
+            ​      គឺជាកម្មវិធីរបស់ក្រុមហ៊ុន Microsoft ដែលមានយ៉ាងតួនាទីសំខាន់ ក្នុងកិច្ចការ រដ្ខបាល ដូចជា ការវាយអត្ថបទ កែតម្រូវ និងរចនាអត្ថបទ បោះពុម្ភ និងរៀបចំអត្ថបទឲ្យមានរបៀបរៀបរាយ ។
             </h4>
           </div>
           <div className="courseBox">
             <img src={excel} alt="" />
             <h3 className="center">Ms.Excel</h3>
             <h4>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-              quas minus deserunt aliquam consequuntur laborum modi! Eligendi
-              unde nostrum sit labore distinctio, sequi similique mollitia
-              minima veritatis quibusdam, nemo aliquam.
+            ​       គឺជាកម្មវិធីរបស់ក្រុមហ៊ុន Microsoft ដែលមានយ៉ាងតួនាទីសំខាន់ សម្រាប់គ្រប់គ្រងទិន្នន័យ ការគណនា សង់ក្រាហ្វិចជាដើម ។
             </h4>
           </div>
+          <div className="courseBox">
+            <img src={powerpoint} alt="" />
+            <h3 className="center">Ms.PowerPoint</h3>
+            <h4>
+            ​       គឺជាកម្មវិធីរបស់ក្រុមហ៊ុន Microsoft ដែលគេនិយមប្រើប្រាស់ក្នុងកិច្ចការការងាររៀបចំគំរោង Presentation ការរៀបចំប្លង់ និងការបកស្រាយពីគំរោងដោយបញ្ចាំងជា Slide Presentation ជាដើម ។
+            </h4>
+          </div>  
           <div className="courseBox">
             <img src={access} alt="" />
             <h3 className="center">Ms.Access</h3>
             <h4>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-              quas minus deserunt aliquam consequuntur laborum modi! Eligendi
-              unde nostrum sit labore distinctio, sequi similique mollitia
-              minima veritatis quibusdam, nemo aliquam.
+            ​       គឺជាប្រព័ន្ធគ្រប់គ្រងមូលដ្ឋានទិន្នន័យ (DBMS) ពីក្រុមហ៊ុន Microsoft ដែលរួមបញ្ចូលគ្នានូវម៉ាស៊ីនមូលដ្ឋានទិន្នន័យទំនាក់ទំនង (ACE) ជាមួយនឹងចំណុចប្រទាក់អ្នកប្រើក្រាហ្វិក និងឧបករណ៍អភិវឌ្ឍន៍កម្មវិធី ។
             </h4>
           </div>
         </div>
@@ -121,7 +109,7 @@ function Course() {
           </div>
           <div className="courseBox">
             <img src={photoshop} alt="" />
-            <h3 className="center">Adobe Photo Shop</h3>
+            <h3 className="center"> Photo Shop</h3>
             <h4>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
               quas minus deserunt aliquam consequuntur laborum modi! Eligendi
@@ -131,7 +119,7 @@ function Course() {
           </div>
           <div className="courseBox">
             <img src={allust} alt="" />
-            <h3 className="center">Adobe Allustrator</h3>
+            <h3 className="center">Allustrator</h3>
             <h4>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
               quas minus deserunt aliquam consequuntur laborum modi! Eligendi
@@ -141,7 +129,7 @@ function Course() {
           </div>
           <div className="courseBox">
             <img src={primeirpro} alt="" />
-            <h3 className="center">Adobe Premiere Pro</h3>
+            <h3 className="center">Premiere Pro</h3>
             <h4>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
               quas minus deserunt aliquam consequuntur laborum modi! Eligendi

@@ -116,8 +116,14 @@ header nav ul li:hover::before {
   header nav ul {
     display: none;
   }
+  .hide_navbar {
+    width: 13rem;
+  }
+  .hide_navbar ul li {
+    font-size: 1rem;
+  }
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width:500px) and (max-width: 800px) {
   header nav span,
   .hide_navbar span {
     display: block;
