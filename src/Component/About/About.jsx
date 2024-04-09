@@ -1,6 +1,9 @@
 import React from "react";
 import "./About.css";
 import about from "../../Picture/about1.jpg";
+import logo from "../../Picture/Logo stem png.png";
+
+import { GiBeveledStar   } from "react-icons/gi";
 function About() {
   return (
     <div>
@@ -13,29 +16,54 @@ function About() {
         </div>
         <div className="component_about">
           <div className="picturAbout">
-            <img src={about} alt="" />
+            <img src={logo} alt="" />
           </div>
           <div className="picturAbout">
-            <h2>About Us</h2>
             <h4>
-              Certainly! Based on the text from the image, here is a paragraph
-              about Hope Academy: Hope Academy is a private Special Education
-              school recognized by the Connecticut State Department of
-              Education, catering to students from grades 1 through 12 who have
-              faced challenges in conventional academic environments. The
-              academy extends Transition Services for young adults aged 18 to
-              22, equipping them with the necessary skills for post-secondary
-              education, career paths, and independent living. With an emphasis
-              on small class sizes, specialized instruction, and intensive
-              clinical services, Hope Academy provides a nurturing environment
-              that includes therapeutic support. The curriculum is rigorous,
-              with a focus on college and career readiness, and integrates
-              explicit instruction in social-emotional learning,
-              self-regulation, and executive functioning skills. Hope Academy is
-              open to inquiries and referrals from parents, school districts,
-              and community agencies, and is committed to addressing the unique
-              needs of each student through a collaborative and dedicated
-              approach.
+              <span>
+                ចក្ខុវិស័យ៖
+                <p>
+                  ធ្វើឪ្យមានការអប់រំស្ទែមមានភាពទាក់ទាញ
+                  និងចូលរួមពីសិស្សគ្រប់ស្រទាប់វណ្ណៈ
+                  ដូច្នេះពួកគេអាចមើលឃើញថាខ្លួនឯងថានឹងក្លាយជាអ្នកជំនាញស្ទែមនាពេលអនាគត
+                  ។
+                </p>
+              </span>
+              <span>
+                បេសកកម្ម៖
+                <p>
+                  <GiBeveledStar  className="handPoint"/>
+                  ផ្ដល់ឪ្យសិស្សានុសិស្សគ្រប់រូបនូវ ការអប់រំស្ទែម យ៉ាងម៉ត់ចត់និងដោយមានការចូលរួមដើម្បីរៀបចំពួកគេសម្រាប់ភាពជោគជ័យទាំងនៅកម្រិតមហាវិទ្យាល័យ
+                  អាជីព​ និងជីវិត ។
+                </p>
+                <p>
+                  <GiBeveledStar  className="handPoint"/>
+                  បំផុសគំនិតឪ្យសិស្សស្វែងយល់ពីចំណាប់អារម្មណ៍របស់ខ្លួននៅក្នុងការសិក្សាស្ទែមនិងដើម្បីអភិវឌ្ឍជំនាញដំណោះស្រាយបញ្ហាការត្រិះរិះពិចារណាស៊ីជម្រៅ
+                  និងជំនាញច្នៃប្រឌិតថ្មី ។
+                </p>
+                <p>
+                  <GiBeveledStar  className="handPoint"/>
+                  បង្កើតបរិយាកាសប្រកបទៅដោយបរិយាប័ន្ទក្នុងការអប់រំស្ទែមដែលធ្វើឪ្យសិស្សទាំងអស់មានអារម្មណ៍ថាត្រូវពួកគេ ត្រូវបានស្វាគមន៍និងផ្ដល់តម្លៃ ដោយគ្មានលក្ខខណ្ឌ​ ។
+                </p>
+                <p>
+                  <GiBeveledStar  className="handPoint"/>
+                  ​​​​​​សហករដែគូជាមួយនិងរដ្ឋាភិបាល អង្គការ វិស័យឯកជន និងសហគមន៍
+                  ដើម្បីផ្ដល់ឪ្យសិស្សទទួលបាននូវបទពិសោធន៍ស្ទែមពីពិភពលោកជាក់ស្ដែង
+                  ។
+                </p>
+              </span>
+              <span>
+                ទស្សនៈវិទ្យា៖
+                <p>
+                  <GiBeveledStar  className="handPoint"/>ផ្ដល់ការអប់រំប្រកបដោយគុណភាព
+                </p>
+                <p>
+                  <GiBeveledStar  className="handPoint"/>សិស្សមានឧត្ដមភាពក្នុងវិជ្ជាជីវៈស្ទែម
+                </p>
+                <p>
+                  <GiBeveledStar  className="handPoint"/>សិស្សមានជំនាញក្នុងដោះស្រាយបញ្ហាជាក់ស្ដែង 
+                </p>
+              </span>
             </h4>
           </div>
         </div>
