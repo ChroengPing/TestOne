@@ -65,7 +65,7 @@ function Home() {
             <div className="ShowText">
               <h3>បច្ចេកវិទ្យា</h3>
               <h4>
-                <span class="ColorOrange">T</span>echnology
+                <span className="ColorOrange">T</span>echnology
               </h4>
             </div>
           </div>
@@ -76,7 +76,7 @@ function Home() {
             <div className="ShowText">
               <h3>វិស្វកម្ម</h3>
               <h4>
-                <span class="ColorRed">E</span>ngineering
+                <span className="ColorRed">E</span>ngineering
               </h4>
             </div>
           </div>
@@ -87,7 +87,7 @@ function Home() {
             <div className="ShowText">
               <h3>គណិតវិទ្យា</h3>
               <h4>
-                <span class="ColorBlue">M</span>athematic
+                <span className="ColorBlue">M</span>athematic
               </h4>
             </div>
           </div>
@@ -292,7 +292,7 @@ function Home() {
               <h3 className="center">CHROENG PING</h3>
               <h4>Hello I'm a web developer on Software Design On web page</h4>
             </div>
-          </div>        
+          </div>
         </div>
       </section>
       {/* Socail Activities */}
@@ -316,7 +316,12 @@ function Home() {
             </div>
           </div>
           <div className="headerSocialparagrap">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur assumenda dignissimos debitis nostrum ea, quia vel quam libero impedit, odio reiciendis voluptatum incidunt voluptatem dolorem quod quibusdam iusto provident deleniti?</h4>
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aspernatur assumenda dignissimos debitis nostrum ea, quia vel quam
+              libero impedit, odio reiciendis voluptatum incidunt voluptatem
+              dolorem quod quibusdam iusto provident deleniti?
+            </h4>
           </div>
         </div>
       </section>
