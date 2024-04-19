@@ -22,6 +22,10 @@ import ba2 from "../../../src/Picture/ba2.jpg";
 import ping from "../../../src/Picture/ping1.jpg";
 import raput from "../../../src/Picture/raput.jpg";
 import koa from "../../../src/Picture/koa.jpg";
+import socail1 from "../../../src/Picture/social1.jpg";
+import socail2 from "../../../src/Picture/social2.jpg";
+import socail3 from "../../../src/Picture/social3.jpg";
+import socail4 from "../../../src/Picture/social4.jpg";
 import { MdOutlineScience } from "react-icons/md";
 import { CiSatellite1 } from "react-icons/ci";
 import { GoGear } from "react-icons/go";
@@ -381,16 +385,16 @@ function Home() {
         <div className="controll_social">
           <div className="headerSocialpicture">
             <div className="social_box">
-              <img src={ba1} alt="" />
+              <img src={socail1} alt="" />
             </div>
             <div className="social_box">
-              <img src={ba1} alt="" />
+              <img src={socail2} alt="" />
             </div>
             <div className="social_box">
-              <img src={ba1} alt="" />
+              <img src={socail3} alt="" />
             </div>
             <div className="social_box">
-              <img src={ba1} alt="" />
+              <img src={socail4} alt="" />
             </div>
           </div>
           <div className="headerSocialparagrap">
