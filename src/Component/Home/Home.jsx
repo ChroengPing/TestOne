@@ -19,11 +19,17 @@ import youtube from "../../../src/Picture/youtub.jpg";
 import software from "../../../src/Picture/software.webp";
 import ba1 from "../../../src/Picture/ba1.jpg";
 import ba2 from "../../../src/Picture/ba2.jpg";
-import ping from "../../../src/Picture/ping.jpg";
+import ping from "../../../src/Picture/ping1.jpg";
+import raput from "../../../src/Picture/raput.jpg";
+import koa from "../../../src/Picture/koa.jpg";
 import { MdOutlineScience } from "react-icons/md";
 import { CiSatellite1 } from "react-icons/ci";
 import { GoGear } from "react-icons/go";
 import { IoCalculatorSharp } from "react-icons/io5";
+import { FaFacebook } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
+import { IoLogoInstagram } from "react-icons/io5";
 function Home() {
   const img = [stem, ba, contact];
   const [index, setIndex] = useState(0);
@@ -275,13 +281,64 @@ function Home() {
           <h3>Our Awesome Teacher</h3>
         </div>
         <div className="controll_teacher">
-          <div className="header_teacher">
+        <div className="header_teacher">
             <div className="teacherPicture">
-              <img src={ping} alt="" />
+              <img src={koa} alt="" />
             </div>
             <div className="teacherTittle ">
-              <h3 className="center">CHROENG PING</h3>
-              <h4>Hello I'm a web developer on Software Design On web page</h4>
+              <div className="nameTeacher">
+                 <h3 className="center ">KHOT KHOAE</h3>
+              </div>
+              <div className="desTeacher">
+                <h4>Hello I'm a web developer on Software Design On web page
+                Hello I'm a web developer on Software Design On web page
+                Hello I'm a web developer on Software Design On web page
+                </h4>
+              </div>
+              <div className="iconsTeacher">
+                <a href="https://web.facebook.com/profile.php?id=100010607768645">
+                  <FaFacebook className="colorblue" />
+                </a>
+                <a href="">
+                  <FaTelegram className="colortelegram" />
+                </a>
+                <a href="">
+                  <IoLogoInstagram className="colorinstagram" />
+                </a>
+                <a href="">
+                  <MdOutlineMail className="colorsky" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="header_teacher">
+            <div className="teacherPicture">
+              <img src={raput} alt="" />
+            </div>
+            <div className="teacherTittle ">
+              <div className="nameTeacher">
+                 <h3 className="center ">CHANTOLA RAPHUT</h3>
+              </div>
+              <div className="desTeacher">
+                <h4>Hello I'm a web developer on Software Design On web page
+                Hello I'm a web developer on Software Design On web page
+                Hello I'm a web developer on Software Design On web page
+                </h4>
+              </div>
+              <div className="iconsTeacher">
+                <a href="https://web.facebook.com/profile.php?id=61552918187408">
+                  <FaFacebook className="colorblue" />
+                </a>
+                <a href="https://t.me/RPT8789">
+                  <FaTelegram className="colortelegram" />
+                </a>
+                <a href="">
+                  <IoLogoInstagram className="colorinstagram" />
+                </a>
+                <a href="">
+                  <MdOutlineMail className="colorsky" />
+                </a>
+              </div>
             </div>
           </div>
           <div className="header_teacher">
@@ -289,8 +346,29 @@ function Home() {
               <img src={ping} alt="" />
             </div>
             <div className="teacherTittle ">
-              <h3 className="center">CHROENG PING</h3>
-              <h4>Hello I'm a web developer on Software Design On web page</h4>
+              <div className="nameTeacher">
+                 <h3 className="center ">CHROENG PING</h3>
+              </div>
+              <div className="desTeacher">
+                <h4>Hello I'm a web developer on Software Design On web page
+                Hello I'm a web developer on Software Design On web page
+                Hello I'm a web developer on Software Design On web page
+                </h4>
+              </div>
+              <div className="iconsTeacher">
+                <a href="https://web.facebook.com/chroeng.ping">
+                  <FaFacebook className="colorblue" />
+                </a>
+                <a href="https://t.me/chroengping">
+                  <FaTelegram className="colortelegram" />
+                </a>
+                <a href="https://www.instagram.com/chroengping/">
+                  <IoLogoInstagram className="colorinstagram" />
+                </a>
+                <a href="mailto:chroengping16@gmail.com">
+                  <MdOutlineMail className="colorsky" />
+                </a>
+              </div>
             </div>
           </div>
         </div>

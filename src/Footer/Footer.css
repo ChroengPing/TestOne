@@ -120,7 +120,7 @@ h3 {
     margin: 0rem;
   }
   .footerBox h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .footerBox h4,
   h3 {
@@ -129,6 +129,70 @@ h3 {
   }
   .footerBox h5 {
     font-size: 1.05rem;
+  }
+  .footerBox h5 span {
+    padding: 0.3rem;
+  }
+  .footerBox h5 p {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .fonts_bayon {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .controller_footer {
+    flex-wrap: wrap;
+  }
+  .footerBox {
+    width: 50%;
+  }
+  .footerBox h4 span {
+    margin: 0rem;
+  }
+  .footerBox h3 {
+    font-size: 1.8rem;
+  }
+  .footerBox h4,
+  h3 {
+    font-size: 1.2rem;
+    margin: 0rem;
+  }
+  .footerBox h5 {
+    font-size: 1.2rem;
+  }
+  .footerBox h5 span {
+    padding: 0.3rem;
+  }
+  .footerBox h5 p {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .fonts_bayon {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280) {
+  .controller_footer {
+    flex-wrap: wrap;
+  }
+  .footerBox {
+    width: 50%;
+  }
+  .footerBox h4 span {
+    margin: 0rem;
+  }
+  .footerBox h3 {
+    font-size: 1.8rem;
+  }
+  .footerBox h4,
+  h3 {
+    font-size: 1.1rem;
+    margin: 0rem;
+  }
+  .footerBox h5 {
+    font-size: 1.1rem;
   }
   .footerBox h5 span {
     padding: 0.3rem;
