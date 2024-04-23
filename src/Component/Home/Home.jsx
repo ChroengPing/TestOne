@@ -301,16 +301,16 @@ function Home() {
               </div>
               <div className="iconsTeacher">
                 <a href="https://web.facebook.com/profile.php?id=100010607768645">
-                  <FaFacebook className="colorblue" />
+                  <FaFacebook className="colorblue Iconshover" />
                 </a>
                 <a href="">
-                  <FaTelegram className="colortelegram" />
+                  <FaTelegram className="colortelegram Iconshover" />
                 </a>
                 <a href="">
-                  <IoLogoInstagram className="colorinstagram" />
+                  <IoLogoInstagram className="colorinstagram Iconshover" />
                 </a>
                 <a href="">
-                  <MdOutlineMail className="colorsky" />
+                  <MdOutlineMail className="colorsky Iconshover IsonsEmail" />
                 </a>
               </div>
             </div>
@@ -331,16 +331,16 @@ function Home() {
               </div>
               <div className="iconsTeacher">
                 <a href="https://web.facebook.com/profile.php?id=61552918187408">
-                  <FaFacebook className="colorblue" />
+                  <FaFacebook className="colorblue Iconshover" />
                 </a>
                 <a href="https://t.me/RPT8789">
-                  <FaTelegram className="colortelegram" />
+                  <FaTelegram className="colortelegram Iconshover" />
                 </a>
                 <a href="">
-                  <IoLogoInstagram className="colorinstagram" />
+                  <IoLogoInstagram className="colorinstagram Iconshover" />
                 </a>
                 <a href="">
-                  <MdOutlineMail className="colorsky" />
+                  <MdOutlineMail className="colorsky Iconshover IsonsEmail" />
                 </a>
               </div>
             </div>
@@ -361,16 +361,16 @@ function Home() {
               </div>
               <div className="iconsTeacher">
                 <a href="https://web.facebook.com/chroeng.ping">
-                  <FaFacebook className="colorblue" />
+                  <FaFacebook className="colorblue Iconshover" />
                 </a>
                 <a href="https://t.me/chroengping">
-                  <FaTelegram className="colortelegram" />
+                  <FaTelegram className="colortelegram Iconshover" />
                 </a>
                 <a href="https://www.instagram.com/chroengping/">
-                  <IoLogoInstagram className="colorinstagram" />
+                  <IoLogoInstagram className="colorinstagram Iconshover" />
                 </a>
                 <a href="mailto:chroengping16@gmail.com">
-                  <MdOutlineMail className="colorsky" />
+                  <MdOutlineMail className="colorsky Iconshover IsonsEmail" />
                 </a>
               </div>
             </div>
