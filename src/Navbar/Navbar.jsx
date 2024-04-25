@@ -21,9 +21,9 @@ function Navbar() {
             <Link to={"/course"} style={{ textDecoration: "none" }}>
               <li>Course</li>
             </Link>
-            <Link to={"/staff"} style={{ textDecoration: "none" }}>
+            {/* <Link to={"/staff"} style={{ textDecoration: "none" }}>
               <li> Staff </li>
-            </Link>
+            </Link> */}
             <Link to={"/about"} style={{ textDecoration: "none" }}>
               <li> About </li>
             </Link>
@@ -55,13 +55,13 @@ function Navbar() {
           >
             <li>Course</li>
           </Link>
-          <Link
+          {/* <Link
             to={"/staff"}
             style={{ textDecoration: "none" }}
             onClick={ToggleClasslist}
           >
             <li> Staff </li>
-          </Link>
+          </Link> */}
           <Link
             to={"/about"}
             style={{ textDecoration: "none" }}

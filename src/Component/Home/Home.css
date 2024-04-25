@@ -362,24 +362,29 @@
     margin-bottom: 1rem;
   }
   .header_student {
-    width: 45%;
-    height: 12rem;
+    width: 49%;
+    height: 25rem;
     padding: 0.5rem;
     margin: 0.5rem 0rem 0rem 0rem;
   }
   .studentPhoto {
     width: 100%;
-    height: 60%;
+    height: 45%;
   }
   .studentTittle {
-    height: 40%;
+    height: 55%;
     padding: 0px;
   }
   .studentTittle h3 {
     font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0.5rem;
   }
-
+  .studentTittle h4 {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5rem;
+  }
   /* Teacher  */
 
   .controll_teacher {

@@ -65,7 +65,7 @@ function Footer() {
               </span>
             </h5>
           </a>
-          <h5>
+          {/* <h5>
             <span className="colorgreen">
               <LiaPhoneVolumeSolid />
             </span>
@@ -74,7 +74,7 @@ function Footer() {
               <p className="colorred"> 097 5474 316</p>,
               <p className="colororange">097 5474 316</p>
             </span>
-          </h5>
+          </h5> */}
         </div>
       </div>
     </div>

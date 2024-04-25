@@ -19,6 +19,9 @@
   height: 29rem;
   cursor: pointer;
 }
+.courseBox:hover{
+  box-shadow: 0 0 13px orange;
+}
 .courseBox img {
   width: 100%;
   height: 65%;
