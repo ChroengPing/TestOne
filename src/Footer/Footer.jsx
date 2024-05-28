@@ -77,6 +77,11 @@ function Footer() {
           </h5> */}
         </div>
       </div>
+      <div className="Copyright_footer">
+        <h3>
+        Copyright ©2024 by stemandinnovationacademyschool 
+        </h3>
+      </div>
     </div>
   );
 }
